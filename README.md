@@ -4,7 +4,7 @@
 
 **I don't build dashboards. I build the thing you open when you actually need to make a call.**
 
-Kid from Lemon Grove. Working at Nike. Building tools I'm proud of.
+San Diego native. Working at Nike. Building tools I'm proud of.
 
 *Sports analytics · Agentic AI · Bayesian modeling · Cloud FinOps*
 
@@ -105,7 +105,7 @@ Three judge types · exact match · numeric tolerance · LLM-as-judge (~$0.001/c
 
 <br/>
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=robsavage619&show_icons=true&hide_border=true&bg_color=0d1117&text_color=8b949e&title_color=58a6ff&icon_color=58a6ff&count_private=true&include_all_commits=true)](https://github.com/robsavage619)
+[![GitHub Streak](https://streak-stats.demolab.com?user=robsavage619&theme=dark&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff)](https://github.com/robsavage619)
 
 <br/>
 
