@@ -34,7 +34,7 @@ Built to answer one question: *Was this trade a good move for this team, in this
 | **War Room** | Deadline command center: buyer/seller verdict, CBT headroom, roster holes, 3-year payroll projection |
 | **AI Brief** | Structured-output GM brief: highest-leverage move today, trade packages with two-sided surplus accounting, counterparty leverage reads |
 | **Research** | 35 rounds. Original thesis empirically rejected and reported. Four validated findings including sell-high skill and K%-trajectory signal. |
-| **Stack** | Python 3.12 · DuckDB · PyMC (Bayesian) · FastAPI · React 19 · TypeScript · model2vec RAG |
+| **Stack** | Python 3.12 · DuckDB · PyMC (Bayesian) · FastAPI · React 19 · TypeScript 6 · Vite 8 · Tailwind 4 · model2vec RAG |
 
 ---
 
@@ -79,11 +79,26 @@ WHOOP + Apple Health + Hevy + DUPR fused through a single typed `DailyState`. No
 
 **[LLM regression-detection harness →](https://github.com/robsavage619/agent-eval-kit)** · MIT · Published on PyPI
 
-\`\`\`sh
+```sh
 uv add agent-eval-kit
-\`\`\`
+```
 
-Three judge types · exact match · numeric tolerance · LLM-as-judge (~$0.001/case) · regression diffing across prompt versions · JUnit XML for CI · Markdown for PR comments
+Three judge types · exact match · numeric tolerance · LLM-as-judge (~$0.001/case) · regression diffing across prompt versions · per-run latency + cost tracking · JUnit XML for CI · Markdown for PR comments
+
+---
+
+## 🏟️ xfriars
+
+> *San Diego in my bones. I wanted Padres analytics that treats the team seriously — a scan engine over real Statcast data, surfacing what the numbers actually show.*
+
+**[San Diego Padres analytics engine →](https://github.com/robsavage619/xfriars)** · Powers [@xFriars](https://x.com/xFriars) on X
+
+| | |
+|---|---|
+| **Data** | MLB Stats API · Statcast leaderboards · full franchise history · team and player profiles |
+| **Engine** | Deterministic SQL detectors, interest-weight scoring, `pad` CLI driving the full pipeline |
+| **Output** | Branded stat cards rendered to PNG via D3, auto-posted to X |
+| **Stack** | Python 3.12 · DuckDB · React 19 · TypeScript · D3.js · Jinja2 |
 
 ---
 
