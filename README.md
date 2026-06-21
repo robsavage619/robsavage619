@@ -120,6 +120,4 @@ Three judge types · exact match · numeric tolerance · LLM-as-judge (~$0.001/c
 
 <br/>
 
-*"The discipline is in following the data, not the hunch."*
-
 </div>
