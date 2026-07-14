@@ -20,6 +20,24 @@ San Diego native. Working at Nike. Building tools I'm proud of.
 
 ---
 
+## 🏈 sleeper-fantasy-football-manager
+
+> *Every dynasty trade tool prices a player the same whether you're rebuilding or chasing a title — and whether your league scores standard PPR or something exotic. Both are wrong. The edge no off-the-shelf tool can see is your commissioner's exact scoring.*
+
+**[AI dynasty fantasy football GM →](https://github.com/robsavage619/sleeper-fantasy-football-manager)**
+
+A full-stack AI general manager that re-derives every valuation under this league's real rules, then finds where the national market is wrong — for you specifically.
+
+| | |
+|---|---|
+| **The edge** | Re-scores every player under the league's exact settings *and* generic PPR; ranks the mispricing the market can't see (our passing/yardage bonuses make QBs and workhorse backs systematically underpriced) |
+| **Market Edges** | Monte-Carlo title equity, buyer/seller contention windows, TD-regression buy-low/sell-high, owner behavioral profiling learned from the league's real trade history |
+| **Matchup Lab** | Pre-lock win probability, stadium/weather splits, playoff strength-of-schedule, snap-share wire early-warning, handcuff/leverage map |
+| **AI loop** | Deterministic engines build one briefing → Claude Code reasons, self-critiques, and posts back → dashboard renders. No runtime LLM key in the backend. |
+| **Stack** | Python 3.12 · Polars · FastAPI · React 19 · TypeScript 6 · Vite 8 · Tailwind 4 · nflverse · Claude Code · 32 engines · 210 tests |
+
+---
+
 ## ⚾ savage-trade-evaluator
 
 > *Most trade tools give every player the same price tag regardless of who's buying. That's wrong. A cost-controlled arm is a luxury to a rebuilder and a pennant to a contender two games up in August with a hole in the rotation.*
