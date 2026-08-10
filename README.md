@@ -6,7 +6,7 @@
 
 San Diego native. Working at Nike. Building tools I'm proud of.
 
-*Sports analytics · Agentic AI · Bayesian modeling · Cloud FinOps*
+*Sports analytics · Agentic AI systems · Bayesian modeling · Knowledge/retrieval infrastructure · Cloud FinOps*
 
 <br/>
 
@@ -17,6 +17,24 @@ San Diego native. Working at Nike. Building tools I'm proud of.
 *Senior Software Engineer · Nike · Portland, OR*
 
 </div>
+
+---
+
+## 🧠 savage-vault-showcase
+
+> *Agents don't need more context. They need the right context, routed fast, with enough source maturity to know when not to overclaim.*
+
+**[Agent-ready Obsidian knowledge system →](https://github.com/robsavage619/savage-vault-showcase)**
+
+A public-safe showcase of my private Obsidian vault: a research corpus wired into Codex, Claude Code, and ChatGPT-style agents without publishing the licensed sources, raw files, or personal notes.
+
+| | |
+|---|---|
+| **Corpus** | 1,088 structured wiki pages · 587 source summaries · 312 concept cards · 117 book hubs · 18 project manifests |
+| **Agent route** | `START HERE` → router → retrieval pack → playbook/source/concept → live repo/source inspection → validation checklist |
+| **Governance** | Source-fidelity metadata, retrieval priority, approved/prohibited use, claim-conflict handling, high-stakes gates |
+| **Privacy boundary** | Showcase repo includes architecture, schema, validation, and redacted examples — no raw PDFs, books, personal notes, or full third-party-derived summaries |
+| **Stack** | Obsidian · Claude Code · Codex · Markdown · Mermaid · Python validation · GitHub Actions |
 
 ---
 
@@ -131,6 +149,10 @@ Three judge types · exact match · numeric tolerance · LLM-as-judge (~$0.001/c
 ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![PyMC](https://img.shields.io/badge/PyMC_Bayesian-E97627?style=flat-square)
+![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=flat-square&logo=obsidian&logoColor=white)
+![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
+![Codex](https://img.shields.io/badge/Codex-111827?style=flat-square&logo=openai&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-4B5563?style=flat-square)
 ![Claude API](https://img.shields.io/badge/Claude_API-CC785C?style=flat-square)
 ![uv](https://img.shields.io/badge/uv-DE5FE9?style=flat-square&logo=astral&logoColor=white)
 
