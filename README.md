@@ -2,9 +2,9 @@
 
 # Rob Savage
 
-**I don't build dashboards. I build the thing you open when you actually need to make a call.**
+**Senior Software Engineer building sports analytics, agent infrastructure, Bayesian research tools, and personal automation.**
 
-San Diego native. Working at Nike. Building tools I'm proud of.
+San Diego native in Portland, OR. Personal projects here are independent of my employer.
 
 *Sports analytics · Agentic AI systems · Bayesian modeling · Knowledge/retrieval infrastructure · Cloud FinOps*
 
@@ -21,8 +21,6 @@ San Diego native. Working at Nike. Building tools I'm proud of.
 ---
 
 ## 🧠 savage-vault-showcase
-
-> *A private research vault is only useful if an agent can find the right note quickly — and knows when the note is not enough.*
 
 **[Obsidian vault architecture for coding agents →](https://github.com/robsavage619/savage-vault-showcase)**
 
@@ -41,25 +39,21 @@ A sanitized look at the knowledge system behind my local coding and research wor
 
 ## 🏈 sleeper-fantasy-football-manager
 
-> *Every dynasty trade tool prices a player the same whether you're rebuilding or chasing a title — and whether your league scores standard PPR or something exotic. Both are wrong. The edge no off-the-shelf tool can see is your commissioner's exact scoring.*
-
 **[AI dynasty fantasy football GM →](https://github.com/robsavage619/sleeper-fantasy-football-manager)**
 
-A full-stack AI general manager that re-derives every valuation under this league's real rules, then finds where the national market is wrong — for you specifically.
+A full-stack AI general manager that re-computes player values under league-specific scoring, compares them to generic PPR baselines, and ranks trade targets by roster context.
 
 | | |
 |---|---|
-| **The edge** | Re-scores every player under the league's exact settings *and* generic PPR; ranks the mispricing the market can't see (our passing/yardage bonuses make QBs and workhorse backs systematically underpriced) |
-| **Market Edges** | Monte-Carlo title equity, buyer/seller contention windows, TD-regression buy-low/sell-high, owner behavioral profiling learned from the league's real trade history |
+| **Valuation** | Re-scores every player under the league's exact settings *and* generic PPR; ranks the mispricing created by custom passing and yardage bonuses |
+| **Market signals** | Monte-Carlo title equity, buyer/seller contention windows, TD-regression buy-low/sell-high, owner behavioral profiling learned from the league's real trade history |
 | **Matchup Lab** | Pre-lock win probability, stadium/weather splits, playoff strength-of-schedule, snap-share wire early-warning, handcuff/leverage map |
-| **AI loop** | Deterministic engines build one briefing → Claude Code reasons, self-critiques, and posts back → dashboard renders. No runtime LLM key in the backend. |
+| **AI loop** | Deterministic engines build one briefing → Claude Code reasons, self-critiques, and posts back → UI renders. No runtime LLM key in the backend. |
 | **Stack** | Python 3.12 · Polars · FastAPI · React 19 · TypeScript 6 · Vite 8 · Tailwind 4 · nflverse · Claude Code · 32 engines · 210 tests |
 
 ---
 
 ## ⚾ savage-trade-evaluator
-
-> *Most trade tools give every player the same price tag regardless of who's buying. That's wrong. A cost-controlled arm is a luxury to a rebuilder and a pennant to a contender two games up in August with a hole in the rotation.*
 
 **[MLB front-office trade evaluation platform →](https://github.com/robsavage619/savage-trade-evaluator)**
 
@@ -77,11 +71,9 @@ Built to answer one question: *Was this trade a good move for this team, in this
 
 ## 📈 cortex
 
-> *Most retail stock tools optimise for action — buy buttons, green arrows, dopamine. CORTEX optimises for the opposite: slower, better-calibrated decisions, and intellectual honesty about edge.*
-
 **[Quantitative research platform →](https://github.com/robsavage619/cortex)**
 
-As of the latest run, no factor clears the significance bar — so nothing trades live. That restraint is the point.
+As of the latest run, no factor clears the significance bar, so live trading is disabled.
 
 | | |
 |---|---|
@@ -95,24 +87,20 @@ As of the latest run, no factor clears the significance bar — so nothing trade
 
 ## 🏋️ savage-labs
 
-> *My WHOOP didn't know I'd taken a beta-blocker. My workout app had no idea how I slept. I got frustrated enough to build something.*
-
 **[Personal performance platform →](https://github.com/robsavage619/savage-labs)**
 
-WHOOP + Apple Health + Hevy + DUPR fused through a single typed `DailyState`. Not a wearable dashboard — a sports-science platform.
+WHOOP + Apple Health + Hevy + DUPR fused through a single typed `DailyState` for readiness, training load, and workout planning.
 
 | | |
 |---|---|
 | **Signals** | Drug-adjusted HRV (σ-deviation, medication-aware weights) · Gabbett ACWR from fused strain + tonnage |
-| **Gate engine** | 20 hard rules derived from physiology research. Claude generates the plan. The gate validates or rejects — not adjusts, not warns: *rejects.* |
+| **Gate engine** | 20 hard rules derived from physiology research. Claude proposes the plan; deterministic gates accept or reject it. |
 | **Science** | Banister CTL/ATL/TSB · concurrent training interference (pickleball-primary) · pre-registered N-of-1 hypothesis catalog |
 | **Stack** | Python 3.12 · FastAPI · DuckDB · Next.js 15 · React 19 · Tailwind v4 OKLCH · Claude Opus 4.7 |
 
 ---
 
 ## 🧪 agent-eval-kit
-
-> *Your agent prompt drifted. You found out from a user, not from CI. That's what this is for.*
 
 **[LLM regression-detection harness →](https://github.com/robsavage619/agent-eval-kit)** · MIT · Published on PyPI
 
@@ -125,8 +113,6 @@ Three judge types · exact match · numeric tolerance · LLM-as-judge (~$0.001/c
 ---
 
 ## 🏟️ xfriars
-
-> *San Diego in my bones. I wanted Padres analytics that treats the team seriously — a scan engine over real Statcast data, surfacing what the numbers actually show.*
 
 **[San Diego Padres analytics engine →](https://github.com/robsavage619/xfriars)** · Powers [@xFriars](https://x.com/xFriars) on X
 
