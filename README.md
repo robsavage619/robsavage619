@@ -22,18 +22,19 @@ San Diego native. Working at Nike. Building tools I'm proud of.
 
 ## 🧠 savage-vault-showcase
 
-> *Agents don't need more context. They need the right context, routed fast, with enough source maturity to know when not to overclaim.*
+> *A private research vault is only useful if an agent can find the right note quickly — and knows when the note is not enough.*
 
-**[Agent-ready Obsidian knowledge system →](https://github.com/robsavage619/savage-vault-showcase)**
+**[Obsidian vault architecture for coding agents →](https://github.com/robsavage619/savage-vault-showcase)**
 
-A public-safe showcase of my private Obsidian vault: a research corpus wired into Codex, Claude Code, and ChatGPT-style agents without publishing the licensed sources, raw files, or personal notes.
+A sanitized look at the knowledge system behind my local coding and research workflow. The real vault stays private; this repo shows the structure — routing docs, retrieval packs, review metadata, project manifests, validation checks, and redacted examples.
 
 | | |
 |---|---|
-| **Corpus** | 1,088 structured wiki pages · 587 source summaries · 312 concept cards · 117 book hubs · 18 project manifests |
-| **Agent route** | `START HERE` → router → retrieval pack → playbook/source/concept → live repo/source inspection → validation checklist |
-| **Governance** | Source-fidelity metadata, retrieval priority, approved/prohibited use, claim-conflict handling, high-stakes gates |
-| **Privacy boundary** | Showcase repo includes architecture, schema, validation, and redacted examples — no raw PDFs, books, personal notes, or full third-party-derived summaries |
+| **Corpus behind it** | 1,088 wiki pages · 587 source summaries · 312 concept cards · 117 book hubs · 18 project manifests |
+| **What it solves** | Gets Codex, Claude Code, and ChatGPT-style agents from a vague request to the right pack, source note, or project manifest without searching the whole vault |
+| **Agent contract** | The vault gives context; the live repo/source still wins. Agents are routed to inspect current files before changing code or making live-state claims. |
+| **Ingestion depth** | Books and papers become hubs, extraction notes, targeted chapter notes, concept cards, and route wiring — only where that extra grain changes the agent's behavior |
+| **Boundary** | The showcase publishes the operating model, not the library: no raw PDFs, books, personal notes, or full third-party-derived summaries |
 | **Stack** | Obsidian · Claude Code · Codex · Markdown · Mermaid · Python validation · GitHub Actions |
 
 ---
