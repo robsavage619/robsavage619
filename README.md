@@ -6,6 +6,8 @@
 
 San Diego native in Portland, OR. Personal projects here are independent of my employer.
 
+Nights-and-weekends work, run at the same standard as anything I'd ship at a job: tests, migrations, calibration checks. Each project exists to answer a question I actually want answered, whether a league's scoring rules mispriced a player, whether a training readiness score beats a coin flip, whether a trade helped a team. A few report a null result instead of a win, because that is the honest answer and it says more about the engineering than a green checkmark would.
+
 *Sports analytics · Agentic AI systems · Bayesian modeling · Knowledge/retrieval infrastructure · Cloud FinOps*
 
 <br/>
@@ -22,16 +24,16 @@ San Diego native in Portland, OR. Personal projects here are independent of my e
 
 ## 🧠 savage-vault-showcase
 
-**[Obsidian vault architecture for coding agents →](https://github.com/robsavage619/savage-vault-showcase)**
+**[Obsidian vault architecture for coding agents](https://github.com/robsavage619/savage-vault-showcase)**
 
-A sanitized look at the knowledge system behind my local coding and research workflow. The real vault stays private; this repo shows the structure — routing docs, retrieval packs, review metadata, project manifests, validation checks, and redacted examples.
+A sanitized look at the knowledge system behind my local coding and research workflow. The real vault stays private; this repo shows the structure: routing docs, retrieval packs, review metadata, project manifests, validation checks, and redacted examples.
 
 | | |
 |---|---|
 | **Corpus behind it** | 1,088 wiki pages · 587 source summaries · 312 concept cards · 117 book hubs · 18 project manifests |
 | **What it solves** | Gets Codex, Claude Code, and ChatGPT-style agents from a vague request to the right pack, source note, or project manifest without searching the whole vault |
 | **Agent contract** | The vault gives context; the live repo/source still wins. Agents are routed to inspect current files before changing code or making live-state claims. |
-| **Ingestion depth** | Books and papers become hubs, extraction notes, targeted chapter notes, concept cards, and route wiring — only where that extra grain changes the agent's behavior |
+| **Ingestion depth** | Books and papers become hubs, extraction notes, targeted chapter notes, concept cards, and route wiring, added only where that extra grain changes the agent's behavior |
 | **Boundary** | The showcase publishes the operating model, not the library: no raw PDFs, books, personal notes, or full third-party-derived summaries |
 | **Stack** | Obsidian · Claude Code · Codex · Markdown · Mermaid · Python validation · GitHub Actions |
 
@@ -39,7 +41,7 @@ A sanitized look at the knowledge system behind my local coding and research wor
 
 ## 🏈 sleeper-fantasy-football-manager
 
-**[AI dynasty fantasy football GM →](https://github.com/robsavage619/sleeper-fantasy-football-manager)**
+**[AI dynasty fantasy football GM](https://github.com/robsavage619/sleeper-fantasy-football-manager)**
 
 A full-stack AI general manager that re-computes player values under league-specific scoring, compares them to generic PPR baselines, and ranks trade targets by roster context.
 
@@ -48,20 +50,20 @@ A full-stack AI general manager that re-computes player values under league-spec
 | **Valuation** | Re-scores every player under the league's exact settings *and* generic PPR; ranks the mispricing created by custom passing and yardage bonuses |
 | **Market signals** | Monte-Carlo title equity, buyer/seller contention windows, TD-regression buy-low/sell-high, owner behavioral profiling learned from the league's real trade history |
 | **Matchup Lab** | Pre-lock win probability, stadium/weather splits, playoff strength-of-schedule, snap-share wire early-warning, handcuff/leverage map |
-| **AI loop** | Deterministic engines build one briefing → Claude Code reasons, self-critiques, and posts back → UI renders. No runtime LLM key in the backend. |
+| **AI loop** | Deterministic engines build one briefing -> Claude Code reasons, self-critiques, and posts back -> UI renders. No runtime LLM key in the backend. |
 | **Stack** | Python 3.12 · Polars · FastAPI · React 19 · TypeScript 6 · Vite 8 · Tailwind 4 · nflverse · Claude Code · 32 engines · 210 tests |
 
 ---
 
 ## ⚾ savage-trade-evaluator
 
-**[MLB front-office trade evaluation platform →](https://github.com/robsavage619/savage-trade-evaluator)**
+**[MLB front-office trade evaluation platform](https://github.com/robsavage619/savage-trade-evaluator)**
 
 Built to answer one question: *Was this trade a good move for this team, in this contention window, under this front office?*
 
 | | |
 |---|---|
-| **Data** | 1.29M+ rows · transactions 1880–2024 · Statcast percentiles & arsenal · Spotrac $49B contracts · front-office personnel |
+| **Data** | 1.29M+ rows · transactions 1880-2024 · Statcast percentiles & arsenal · Spotrac $49B contracts · front-office personnel |
 | **War Room** | Deadline command center: buyer/seller verdict, CBT headroom, roster holes, 3-year payroll projection |
 | **AI Brief** | Structured-output GM brief: highest-leverage move today, trade packages with two-sided surplus accounting, counterparty leverage reads |
 | **Research** | 35 rounds. Original thesis empirically rejected and reported. Four validated findings including sell-high skill and K%-trajectory signal. |
@@ -71,13 +73,13 @@ Built to answer one question: *Was this trade a good move for this team, in this
 
 ## 📈 cortex
 
-**[Quantitative research platform →](https://github.com/robsavage619/cortex)**
+**[Quantitative research platform](https://github.com/robsavage619/cortex)**
 
 As of the latest run, no factor clears the significance bar, so live trading is disabled.
 
 | | |
 |---|---|
-| **Factors** | Momentum · Low-vol · Sharpe · Value · Quality — all point-in-time, zero lookahead |
+| **Factors** | Momentum · Low-vol · Sharpe · Value · Quality, all point-in-time, zero lookahead |
 | **Alt-data** | SEC EDGAR Form 4 · 13F institutional flow · Senate congressional trades · White House executive mentions |
 | **Rigor** | Pre-registered backtest harness · Newey-West HAC t-stats · multiple-testing correction · long-short spread |
 | **Calibration** | Brier score · per-conviction hit-rate buckets · reliability diagrams on every thesis |
@@ -87,22 +89,23 @@ As of the latest run, no factor clears the significance bar, so live trading is 
 
 ## 🏋️ savage-labs
 
-**[Personal performance platform →](https://github.com/robsavage619/savage-labs)**
+**[Personal performance platform](https://github.com/robsavage619/savage-labs)**
 
 WHOOP + Apple Health + Hevy + DUPR fused through a single typed `DailyState` for readiness, training load, and workout planning.
 
 | | |
 |---|---|
-| **Signals** | Drug-adjusted HRV (σ-deviation, medication-aware weights) · Gabbett ACWR from fused strain + tonnage |
-| **Gate engine** | 20 hard rules derived from physiology research. Claude proposes the plan; deterministic gates accept or reject it. |
+| **Signals** | Drug-adjusted HRV (σ-deviation, medication-aware weights) · WHOOP-measured HRmax · Gabbett ACWR from fused strain + tonnage |
+| **Gate engine** | 20 deterministic rules derived from physiology research reject a Claude-drafted plan outright; the model never has final say |
+| **Self-eval, published either way** | Calibration holds (+0.03 RPE bias, 86% of prescriptions within 0.5 of target); next-day predictive validity of readiness is a null (r = -0.07, n = 54), reported rather than buried |
 | **Science** | Banister CTL/ATL/TSB · concurrent training interference (pickleball-primary) · pre-registered N-of-1 hypothesis catalog |
-| **Stack** | Python 3.12 · FastAPI · DuckDB · Next.js 15 · React 19 · Tailwind v4 OKLCH · Claude Opus 4.7 |
+| **Stack** | Python 3.12 · FastAPI · DuckDB · Next.js 15 · React 19 · Tailwind v4 OKLCH · Claude Opus 4.8 · 1,030 tests |
 
 ---
 
 ## 🧪 agent-eval-kit
 
-**[LLM regression-detection harness →](https://github.com/robsavage619/agent-eval-kit)** · MIT · Published on PyPI
+**[LLM regression-detection harness](https://github.com/robsavage619/agent-eval-kit)** · MIT · Published on PyPI
 
 ```sh
 uv add agent-eval-kit
@@ -114,7 +117,7 @@ Three judge types · exact match · numeric tolerance · LLM-as-judge (~$0.001/c
 
 ## 🏟️ xfriars
 
-**[San Diego Padres analytics engine →](https://github.com/robsavage619/xfriars)** · Powers [@xFriars](https://x.com/xFriars) on X
+**[San Diego Padres analytics engine](https://github.com/robsavage619/xfriars)** · Powers [@xFriars](https://x.com/xFriars) on X
 
 | | |
 |---|---|
